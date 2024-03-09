@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.App-header{
+    background-color:var(--body_background);
+    color:var(--body_color);
+}
+.nav_ul li{
+     padding: 0.2rem ;
+}
+
+.nav-link{
+    font-size: 1rem;
+    color: #000 !important;
+   font-weight: bold !important;
+   font-family: "Helvetica Neue";
+   letter-spacing:0.5;
+}
+.footer{
+    width:100%;
+    color:red;
+   text-align:center;
+   background-color:#1a76d2;
+  padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+.footer_icon i{
+      padding:1rem;
+   border-radius:50%;
+   /* background-color:blue; */
+}
+.footer_icon i:hover{
+background-color:blue;
+}
+
+.carousel-caption{
+    width:40%;
+    height:80%;
+    color:black;
+    text-align:left;
+}
+.carousel_button{
+    height:40px;
+    background-color:blue;
+    padding:2px;
+    margin:10px;
+    color:white;
+   
+}
+.card_home{
+    justify-content:center;
+    
+}
+/* .card_home1{
+      margin-top:-150px;
+} */
+.card {
+    border: none !important; /* Remove card border */
+}
+
+.circle {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    border-radius: 50%; /* Make it rounded */
+    transition: background-color 0.3s ease; /* Transition effect */
+    margin: 0 auto; /* Center the circle horizontally */
+}
+
+.circle:hover {
+    background-color: blue; /* Change to blue on hover */
+}
+
+.icon_design {
+    font-size: 2rem; /* Adjust icon size as needed */
+    color: black; /* Set icon color */
+    transition: color 0.3s ease; /* Transition effect */
+}
+
+.circle:hover .icon_design {
+    color: white; /* Change icon color to white on hover */
+}
+
+.doctor{
+    background-color:green;
+}
+.doctor_image{
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+ }
+ .services{
+   height:20px;
+ }
+ .dep:hover{
+    background-color:green;
+    font-weight:bold;
+    font-size:30px;
+ }
+ .appointmentform{
+    background-color:aqua;
+   
+ }
+     
